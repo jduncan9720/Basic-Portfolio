@@ -30,6 +30,12 @@ header {
     z-index: -1;
 }
 
+.headcontain {
+    width: 960px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1 {
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
