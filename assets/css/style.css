@@ -27,15 +27,14 @@ header {
     border-style: solid;
     border-width: 0px 0px 2px 0px;
     border-color: #cccccc;
-    z-index: -1;
+    z-index: 4;
 }
-
 .headcontain {
     width: 960px;
     height: 65px;
     margin-left: auto;
     margin-right: auto;
-}
+}   
 h1 {
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -63,10 +62,15 @@ h2{
 li {
     float: right;
     display: block;
+    border-right: 1px solid #cccccc;
     text-align: center;
-    padding: 16px;
+    padding: 0px 15px 0px 15px;
     color: #cccccc;
-    }
+    margin-top: 15px;
+}
+li:first-child{
+    border-right: none;
+}
 a {
     text-decoration: none;
     color: #cccccc;
